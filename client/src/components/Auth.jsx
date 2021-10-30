@@ -108,9 +108,11 @@ const Auth = () => {
                         <div className="auth__form-container_fields-content_input">
                                 <label htmlFor="password">Password</label>
                                 <input 
-                                    type="password" 
-                                    name="password"
-                                    autocomplete="on"
+                                    name="Password" 
+                                    type="password"
+                                    placeholder="Password"
+                                    onChange={handleChange}
+                                    required
                                     
                                 />
                             </div>
